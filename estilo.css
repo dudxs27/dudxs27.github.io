@@ -1,0 +1,21 @@
+ul{ 
+    list-style-type: none;
+}
+
+li {
+   display: inline; 
+}
+
+body{
+    background-color: #7e4ca3cd ;
+    font-family: 'Lucida Console', monospace;
+    text-align: center;
+}
+
+a {
+    color: #efcbfe;
+}
+
+a:hover {
+    color: #f07167;
+}
