@@ -19,3 +19,38 @@ a {
 a:hover {
     color: #f07167;
 }
+
+.galeria img{
+    width: 30%;
+    height: 360px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+}
+
+.galeria{ 
+    display: flex ;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.galeria img:hover{
+    transform: scale(1.05);
+}
+
+h2{
+    color:rgb(222, 200, 235)
+
+}
+
+.biografia{
+    display: flex;
+}
+
+.biografia img{
+    width: 200px; /*mudar a largura*/ 
+}
+
+.biografia p{
+    max-width: 50%;
+    color:azure;
+}
