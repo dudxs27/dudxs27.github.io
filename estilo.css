@@ -54,3 +54,20 @@ h2{
     max-width: 50%;
     color:azure;
 }
+
+.contato img{
+    width: auto;
+    height: 80px;
+    transition: transform 0.2s;
+    padding: 10px;
+}
+.contato img:hover{
+    transition: scale(1.5);
+}
+
+.contato{
+    padding: 80px;
+}
+.contato a{
+    text-decoration: none;
+}
